@@ -23,7 +23,7 @@ color : white;
 }
 
 h4{
-  color: black;
+  color: white;
   text-align: center;
   font-family: arial;
   font-size: 30;
@@ -31,7 +31,15 @@ h4{
 }
 
 h1{
-  color: black;
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size: 30;
+  background-color: none;
+}
+
+h5{
+  color: white;
   text-align: center;
   font-family: arial;
   font-size: 30;
@@ -39,5 +47,24 @@ h1{
 }
 
 body{
-  background-color: rgb(253, 255, 245);
+  background-color: black;
+}
+
+.empowerment{
+  text-align: center;
+}
+
+.About{
+  text-align: center;
+}
+
+.column{
+  float : left;
+  width : 20%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
 }
